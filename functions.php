@@ -27,5 +27,9 @@ function my_child_theme_locale() {
 }
 add_action( 'after_setup_theme', 'my_child_theme_locale' );
 
+// Disable Google API for Google Fonts and host it ourself
+wp_dequeue_style( 'google-font-open-sans' );
+wp_enqueue_style( 'google-font-open-sans', trailingslashit( get_stylesheet_directory_uri() ) . 'google-font-open-sans.css', array(), NULL );
+
 // Special files doesn't get included automatically
 require_once get_stylesheet_directory() . '/inc/template-tags.php';
