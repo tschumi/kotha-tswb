@@ -38,6 +38,7 @@
         <div class="thumbnails">
             <div class="entry-video">
             <?php $st_video = get_post_meta( $post->ID, '_format_video_embed', true ); ?>
+			<?php if(function_exists('lyte_parse')) { $st_video = lyte_parse($st_video); } ?>
             <?php if(wp_oembed_get( $st_video )) : ?>
                 <?php echo wp_oembed_get($st_video); ?>
             <?php else : ?>
