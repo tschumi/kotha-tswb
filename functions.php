@@ -35,3 +35,6 @@ wp_enqueue_style( 'google-font-open-sans', trailingslashit( get_stylesheet_direc
 
 // Special files doesn't get included automatically
 require_once get_stylesheet_directory() . '/inc/template-tags.php';
+
+// Load modified social icons widget
+require_once get_stylesheet_directory() . '/inc/widgets/social-icons.php';
