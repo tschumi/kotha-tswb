@@ -38,3 +38,6 @@ require_once get_stylesheet_directory() . '/inc/template-tags.php';
 
 // Load modified social icons widget
 require_once get_stylesheet_directory() . '/inc/widgets/social-icons.php';
+
+// Apply own customizer defaults
+require_once get_stylesheet_directory() . '/functions/customizer/customizer_settings.php';
