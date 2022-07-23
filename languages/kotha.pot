@@ -20,6 +20,10 @@ msgstr ""
 msgid "404"
 msgstr ""
 
+#: ../404.php:13
+msgid "Back"
+msgstr ""
+
 #: ../404.php:11
 msgid "Sorry, we could not found the page you are looking for!"
 msgstr ""

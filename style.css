@@ -81,3 +81,17 @@ p.catcam {
 .lyte-wrapper{
 	margin: 0 !important
 }
+
+.error-404{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.btn-orange {
+	color: #fff;
+	background-color: #ff7f2a;
+	border-color: #ff7f2a;
+}
+.btn-orange:hover {
+	color: #fff;
+}
